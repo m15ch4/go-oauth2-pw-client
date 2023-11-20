@@ -11,7 +11,7 @@ import (
 func main() {
 	// Configuring the OAuth2 client
 	config := &oauth2.Config{
-		ClientID:     "go-clien",
+		ClientID:     "go-client",
 		ClientSecret: "blhZ1ueOSecw8batVFqHQEo2zts6WwdopXdYTfko62wX19Tu",
 		Endpoint: oauth2.Endpoint{
 			TokenURL: "https://xreg-vidm01.vmwpslab.pl/SAAS/auth/oauthtoken", // The token endpoint of the OAuth2 provider
